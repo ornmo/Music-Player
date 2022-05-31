@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
+    <title>Music Player</title>
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/images/favicon.ico">
     <!-- Font-Awesome custom link  -->
@@ -13,7 +13,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="player-container">
+        <!-- Song -->
+        <div class="img-container">
+            <img src="/images/1-Glenn_Miller_Chattanooga_Choo_Choo.jfif" alt="Glen Miller">
+        </div>
+        <h2 id="title">Chattanooga Choo Choo</h2>
+        <h3 id="artist">Glen Miller</h3>
+        <audio src="/music/1-Glenn_Miller_Chattanooga_Choo_Choo.mp3"></audio>
+        <!-- Progress bar -->
+        <div class="progress-container" id="progress-container">
+            <div class="progress" id="progress"></div>
+            <div class="duration-wrapper"><span id="current-time">0:00</span>
+            <span id="duration">3:32</span>
+            </div>
+        </div>
+        <!-- Controls -->
+        <div class="player-controls">
+            <i class="fas fa-backward" id="prev" title="Previous"></i>
+            <i class="fas fa-play main-button" id="play" title="Play"></i>
+            <i class="fas fa-forward" id="next" title="Next"></i>
+        </div>
+    </div>
     
     <!-- Script -->
     <script src="script.js"></script>

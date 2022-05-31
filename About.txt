@@ -1,7 +1,5 @@
-This project is 
+This project is a music player
 
-It uses 
+It uses HTML, CSS and Javascript. 
 
-It can be used as an example of 
-
-- 
+It displays the artist, song, song length and has a play/ pause button with progree bar and also has a next button which chages song along with the artists artwork.
